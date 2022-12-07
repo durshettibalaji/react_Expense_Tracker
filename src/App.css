@@ -2,7 +2,7 @@
   text-align: center;
 }
 *{
-  background-color: #4b4b4b;
+  /* background-color: #8a2e2e; */
 }
 .App-logo {
   height: 40vmin;
@@ -39,12 +39,3 @@
   }
 }
 
-.expenses {
-  padding: 1rem;
-  background-color: rgb(31, 31, 31);
-  margin: 2rem auto;
-  width: 50rem;
-  max-width: 95%;
-  border-radius: 12px;
-  box-shadow: 0 10px 8px rgba(209, 29, 29, 0.25);
-}

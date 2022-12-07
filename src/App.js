@@ -1,13 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
-import Epenses from './components/Expenses';
 
-// import ExpenseItem from './components/ExpenseItem';
+
+import Epenses from './components/Expensesfolder/Expenses.js';
+import NewExpense from './components/NewExpense/NewExpense';
 function App() {
   const expenses = [
     {
       id: 'e1',
-      title: 'Toilet Paper',
+      title: 'Books',
       amount: 94.12,
       date: new Date(2020, 7, 14),
     },
@@ -27,6 +28,7 @@ function App() {
   ]
   return (
     <div >
+      <NewExpense/>
     <Epenses expenses={expenses}></Epenses>
     </div>
   );
